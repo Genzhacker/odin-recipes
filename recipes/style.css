@@ -6,25 +6,24 @@ body{
 
 h1{
     color: chocolate;
-    text-shadow: 4px 2px 15px rgba(225, 158, 51, 0.744);
-    position: relative;
-    left: 53px;
-    margin: 50px 0px 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 2px 15px rgba(225, 158, 51, 0.744);
+    margin: 50px 53px 30px;
 }
 
 img{
-    position: relative;
-    left: 37px;
     padding-left: 12px;
-    margin-left: 2px;
+    margin: 0 2px;
     border-radius: 70px;
     inline-size: 200px;
 }
 
+h1+img{
+    margin-left: 37px;
+}
+
 h4{
-    position: relative;
-    left: 60px;
+    margin-left: 60px;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 12px;
@@ -32,8 +31,7 @@ h4{
 }
 
 p{
-    position: relative;
-    left: 93px;
+    margin-left: 105px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
     line-height: 1.8;
@@ -41,8 +39,7 @@ p{
 }
 
 p#desc{
-    position: relative;
-    left: 90px;
+    margin-left: 90px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
     line-height: 1.6;
@@ -51,16 +48,14 @@ p#desc{
 }
 
 .by{
-    position: relative;
-    left: 62px;
+    margin-left: 62px;
     font-family: monospace;
     line-height: 0;
     font-size: 15px;
 }
 
 ul{
-    position: relative;
-    left: 68px;
+    margin-left: 68px;
 }
 
 li{
@@ -70,9 +65,7 @@ li{
 }
 
 .snbr{
-    position: relative;
-    left: 60px;
-    top: 7px;
+    margin-left: 75px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
 }
